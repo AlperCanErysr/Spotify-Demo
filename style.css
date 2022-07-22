@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #DC2F4F;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav .navdiv{
+    width: 100%;
+    height: 70px;
+    background-color: #DC2F4F;
+    color: white;
+}
+.line{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.navdiv .nav-text1-spotify{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+.navdiv .nav-text1-premium{
+    position: absolute;
+    top: 10px;
+    left: 850px;
+}
+.navdiv .nav-text1-help{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+.navdiv .nav-text1-download{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+}
+.navdiv .nav-text1-signUp{
+    position: absolute;
+    top: 10px;
+    left: 1400px;
+}.navdiv .nav-text1-signIn{
+    position: absolute;
+    top: 10px;
+    left: 1550px;
+}
+.sign-up-in .intermediate-line{
+    position: absolute;
+    top: 10px;
+    left: 1520px;
+}
+header .background-wp{
+    width: 100%;
+    height: 500px;
+    background-image:url(/spotify-demo/Images/Slider-CL01-Background.png);
+}
+header .bg-text1{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+}
+header .free-button{
+    width: 320px;
+    height: 70px;
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 50px;
+    font-size: .7rem;
+}
+header .free-button:hover{
+    color: green;
+    background-color: white;
+    width: 350px;
+}
+header .premium-button{
+    width: 320px;
+    height: 70px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    background-color: white;
+    color: green;
+    border: none;
+    border-radius: 50px;
+    font-size: .7rem;
+}
+header .premium-button:hover{
+    color: white;
+    background-color: green;
+    width: 350px;
+}
+.bg2-wp{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    color: black;
+}
+.bg2-wp h2{
+    font-size: 2.3rem;
+    position: absolute;
+    top: 700px;
+    left: 290px;
+}
+.bg2-wp h3{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 780px;
+    left: 290px;
+}
+.ft-p{
+    width: 550px;
+    position: absolute;
+    top: 850px;
+    left: 290px;
+}
+.ft-wp{
+    background-image: url(Images/Spotify-HD-Wallpaper.jpg);
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 700px;
+    left: 930px;
+    border-radius: 30px;
+}
+
